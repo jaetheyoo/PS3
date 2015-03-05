@@ -7,7 +7,7 @@ public class InsufficientFundsException extends Exception {
 		return FundsReq;
 	}
 	
-	public InsufficientFundsException( double Funds) {
+	public InsufficientFundsException(double Funds) {
 		this.FundsReq = Funds;
 	}
 }

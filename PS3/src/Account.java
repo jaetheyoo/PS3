@@ -9,13 +9,11 @@
 
 import java.util.Date;
 
-
 public class Account {
 	private int id = 0;
 	private double balance = 0;
 	private double annualInterestRate = 0;
-	private Date dateCreated;
-	
+	private Date dateCreated;	
 	
 	public int getId() {
 		return id;
@@ -42,7 +40,7 @@ public class Account {
 	}
 
 	Account() {
-		
+
 	}
 	
 	public String getDate() {
@@ -54,7 +52,6 @@ public class Account {
 		this.id = id;
 		this.balance = balance;
 	}
-	
 	
 	public Date dateCreated() {
 		return this.dateCreated;
